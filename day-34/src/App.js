@@ -76,12 +76,16 @@ function App() {
       phone: "7060338741, 7060338741",
     },
   ];
-  return <div className=" flex flex-col justify-center items-center">
-    <div className="p-[1rem] bg-slate-300 w-full font-bold text-4xl text-center mb-10">Hari ॐ</div>
-    <div className="w-11/12">
-    <CardBox cardData={cardData}/>
+  return (
+    <div className=" flex flex-col justify-center items-center">
+      <div className="p-[1rem] bg-slate-300 w-full font-bold text-4xl text-center mb-10">
+        Hari ॐ
+      </div>
+      <div className="w-11/12">
+        <CardBox cardData={cardData} />
+      </div>
     </div>
-  </div>;
+  );
 }
 
 export default App;
